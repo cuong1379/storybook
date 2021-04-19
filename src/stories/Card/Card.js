@@ -3,14 +3,16 @@ import PropTypes from "prop-types";
 import "./card.css";
 
 export const Card = ({ hoverable, title, description, cover, ...props }) => {
-  const mode = hoverable ? "storybook-button--hoverable" : "";
+  const mode = hoverable ? "storybook-card--hoverable" : null;
   return (
     <div className={["storybook-card", mode].join(" ")}>
       <div>
-        <img alt="example" src={cover} />
+        <img alt="example" src={cover} className="storybook-card-img" />
       </div>
-      <div>{/* <div>{title}</div>
-        <div>{description}</div> */}</div>
+      <div className="storybook-card-meta">
+        <h3>{title}</h3>
+        <p>{description}</p>
+      </div>
     </div>
   );
 };

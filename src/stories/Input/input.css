@@ -1,0 +1,39 @@
+/* .storybook-input-div {
+  font-family: "Nunito Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 300;
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 5px;
+  display: inline-block;
+  line-height: 1;
+} */
+.storybook-input {
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 2px;
+  border-color: rgb(98, 180, 247);
+  display: inline-block;
+  line-height: 1;
+  background-color: white;
+}
+.storybook-input:hover {
+  border-color: black;
+}
+.storybook-input:focus {
+  border-color: black;
+  background-color: yellowgreen;
+}
+.storybook-input--large {
+  width: 500px;
+  padding: 10px;
+  height: 30px;
+}
+.storybook-input--small {
+  width: 400px;
+  padding: 5px;
+  height: 20px;
+}
+/* .storybook-input--disable {
+  background-color: aliceblue;
+  cursor: no-drop;
+} */

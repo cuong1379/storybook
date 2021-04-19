@@ -16,3 +16,9 @@ Default.args = {
   description: "This is a description",
   cover: "https://os.alipayobjects.com/rmsportal/QBnOOoLaAfKPirc.png",
 };
+
+// export const HoverStatewithClass = Template.bind({});
+// HoverStatewithClass.args = {
+//   ...Default.args,
+//   className: "hover",
+// };
